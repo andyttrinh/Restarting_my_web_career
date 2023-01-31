@@ -1,9 +1,6 @@
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello world!";
-alert("Hello");
+const myObject = {
+    property: 'Value',
+    number: 77
+};
 
-function fibo(n) {
-    return n;
-}
-
-alert(fibo(10));
+console.log(myObject.number);
