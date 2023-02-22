@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, form {
+    width: 10rem;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
